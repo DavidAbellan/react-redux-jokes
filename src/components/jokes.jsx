@@ -25,7 +25,7 @@ const joke = (props) => {
 function mapStateToProps (state) {
     console.log('STorE', store.getState());
     return {
-        jokes : state.jokes
+        jokes : state.joke.jokes
     }
     
 }
